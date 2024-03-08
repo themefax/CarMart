@@ -17,7 +17,7 @@ $(function () {
     }
 
 
-    //=======select2====== 
+    //=======Select2====== 
     $(document).ready(function () {
         $('.select_2').select2();
     });
@@ -25,6 +25,17 @@ $(function () {
 
     //=======COUNTER JS=======
     $('.counter').countUp();
+
+
+    //=======Marquee Animation=======
+    $('.marquee_animi').marquee({
+        speed: 50,
+        gap: 0,
+        delayBeforeStart: 0,
+        direction: 'left',
+        duplicated: true,
+        pauseOnHover: true
+    });
 
 
     //======category slider======
@@ -147,9 +158,9 @@ $(function () {
     });
 
 
-    //======listing 2 slider======
-    $('.listing_2_slider').slick({
-        slidesToShow: 3,
+    //====== slider======
+    $('.add_slider').slick({
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
@@ -172,7 +183,7 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -183,7 +194,6 @@ $(function () {
             }
         ]
     });
-
 
     //======listing 3 slider======
     $('.listing_3_slider').slick({
