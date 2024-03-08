@@ -108,10 +108,9 @@ button {
 }
 
 :root {
-    --colorPrimary: #46D993;
+    --colorPrimary: #EE1243;
     --colorYellow: #FFA633;
-    --colorRed: #EE1243;
-    --lightBg: #F2F1F1;
+    --lightBg: #F1FAFF;
     --colorWhite: #ffffff;
     --colorBlack: #0A0A0A;
     --paraColor: #5F6163;
@@ -124,7 +123,7 @@ button {
     font-size: 18px;
     font-weight: 400;
     font-family: var(--cursiveFont);
-    color: var(--colorRed);
+    color: var(--colorPrimary);
     text-transform: capitalize;
     text-align: center;
 }
@@ -146,7 +145,7 @@ button {
     font-size: 18px;
     font-weight: 400;
     font-family: var(--cursiveFont);
-    color: var(--colorRed);
+    color: var(--colorPrimary);
     text-transform: capitalize;
     text-align: center;
 }
@@ -211,7 +210,7 @@ button {
     font-size: 15px;
     font-weight: 500;
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     position: relative;
     text-transform: capitalize;
     text-align: center;
@@ -238,7 +237,7 @@ button {
     height: 100%;
     top: 0;
     right: 0;
-    background: var(--colorBlack);
+    background: var(--colorYellow);
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -250,7 +249,7 @@ button {
 .common_btn:hover,
 .common_btn_2:hover,
 .common_btn_3:hover {
-    color: var(--colorWhite);
+    color: var(--colorBlack);
 }
 
 .common_btn:hover:after,
@@ -261,7 +260,7 @@ button {
 }
 
 .common_btn_2 {
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     color: var(--colorWhite);
     border-radius: 50px;
     padding: 12px 60px 12px 25px;
@@ -344,7 +343,7 @@ button {
 .nextArrow,
 .nextArrow:hover,
 .prevArrow:hover {
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     color: var(--colorWhite);
 }
 
@@ -771,7 +770,7 @@ button {
 
 .banner_overly {
     padding: 260px 0px 260px 0px;
-    background: linear-gradient(180deg, rgb(28 46 109 / 81%) 0%, rgb(1 5 16 / 81%) 100%);
+    background: #00000080;
 }
 
 .banner_contant {
@@ -920,7 +919,7 @@ button {
 }
 
 .category_area a:hover p {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 /* category end */
@@ -974,7 +973,7 @@ button {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-    border: 1px solid rgba(0, 0, 0, .08);
+    border: 1px solid rgb(0 0 0 / 14%);
     position: relative;
 }
 
@@ -983,9 +982,9 @@ button {
     content: "";
     width: 100%;
     height: 50%;
-    border: 2px solid var(--colorRed);
-    top: -1px;
-    right: -1px;
+    border: 2px solid var(--colorPrimary);
+    top: 0;
+    right: 0;
     z-index: -1;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -1022,7 +1021,7 @@ button {
 
 .feature_item .text {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 12px 12px;
     background: var(--lightBg);
     display: flex;
@@ -1041,7 +1040,7 @@ button {
 }
 
 .feature_item .text:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .feature_item:hover .text {
@@ -1054,7 +1053,7 @@ button {
     padding: 7px 12px;
     text-transform: capitalize;
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -1163,7 +1162,7 @@ button {
 }
 
 .listing_img a:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
     background: var(--colorWhite);
 }
 
@@ -1191,7 +1190,7 @@ button {
 }
 
 .listing_text a:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .listing_text ul {
@@ -1284,8 +1283,8 @@ button {
 
 .listing .slick-dots li.slick-active button,
 .listing .slick-dots li:hover button {
-    background: var(--colorRed);
-    border-color: var(--colorRed);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
 }
 
 .listing_item:hover {
@@ -1499,11 +1498,11 @@ button {
 }
 
 .pricing_nav li button.active span {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .pricing_nav .nav-link.active {
-    background: var(--colorRed);
+    background: var(--colorPrimary);
 }
 
 .pricing_item {
@@ -1617,8 +1616,8 @@ button {
 }
 
 .pricing_item a:hover {
-    background: var(--colorRed);
-    border-color: var(--colorRed);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
     color: var(--colorWhite);
 }
 
@@ -1636,7 +1635,7 @@ button {
 }
 
 .testimonial_overly {
-    background: linear-gradient(180deg, rgba(1, 12, 33, 0.00) 0%, #010C21 100%);
+    background: linear-gradient(180deg, rgb(1 12 33 / 75%) 0%, #010c21e8 100%);
 }
 
 .testimonial .section_title h4,
@@ -1843,7 +1842,13 @@ button {
 
 /* footer start */
 .footer {
-    background: #181818;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.footer_overlay {
+    background: #000000c9;
 }
 
 .footer_left {
@@ -1961,7 +1966,7 @@ button {
     line-height: 43px;
     font-size: 16px;
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -1970,7 +1975,7 @@ button {
 }
 
 .footer_right form button:hover {
-    background: var(--colorPrimary);
+    background: var(--colorBlack);
 }
 
 .footer_right form button i {
@@ -2013,7 +2018,7 @@ button {
 
 .copy_right {
     padding: 20px 0px;
-    background: #2D2D2D;
+    border-top: 1px solid #ffffff24;
 }
 
 .copy_right p {
@@ -2039,7 +2044,7 @@ button {
 .main_menu_2 .droap_menu li a.active,
 .main_menu_2 .droap_menu li a:hover::after,
 .main_menu_2 .droap_menu li a.active::after {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .main_menu_2.menu_fix {
@@ -2175,7 +2180,7 @@ button {
 }
 
 .category_2_item:hover .text b {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .category_2_item .text p {
@@ -2188,7 +2193,7 @@ button {
 }
 
 .category_2_item:hover .text p {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .category_2_item span {
@@ -2278,7 +2283,7 @@ button {
     font-weight: 600;
     padding: 6px 10px;
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     text-transform: uppercase;
     border-radius: 0px 20px 20px 0px;
     -webkit-border-radius: 0px 20px 20px 0px;
@@ -2321,7 +2326,7 @@ button {
 }
 
 .listing_2_overly a:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
     background: var(--colorWhite);
 }
 
@@ -2388,7 +2393,7 @@ button {
 }
 
 .listing_2_text a:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .listing_2_text p {
@@ -2487,8 +2492,8 @@ button {
 
 .listing_2 .slick-dots li.slick-active button,
 .listing_2 .slick-dots li:hover button {
-    background: var(--colorRed);
-    border-color: var(--colorRed);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
 }
 
 /* listing 2 end */
@@ -2670,7 +2675,7 @@ button {
 .testimonial_2 .nextArrow:hover,
 .testimonial_2 .prevArrow:hover {
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
 }
 
 /* testimonial end */
@@ -2699,7 +2704,7 @@ button {
 }
 
 .destination_item_1:hover {
-    border-color: var(--colorRed);
+    border-color: var(--colorPrimary);
 }
 
 .destination_item_1 .img {
@@ -2734,7 +2739,7 @@ button {
 }
 
 .destination_item_1_text .text b:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .destination_item_1_text .text p {
@@ -2770,8 +2775,8 @@ button {
 
 .destination_item_1_text span:hover {
     color: var(--colorWhite);
-    background: var(--colorRed);
-    border-color: var(--colorRed);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
 }
 
 .destination_item_2 {
@@ -2793,7 +2798,7 @@ button {
 }
 
 .destination_item_2:hover {
-    border-color: var(--colorRed);
+    border-color: var(--colorPrimary);
 }
 
 .destination_item_2 .img {
@@ -2830,7 +2835,7 @@ button {
 }
 
 .destination_item_2_text .text b:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .destination_item_2_text .text p {
@@ -2866,8 +2871,8 @@ button {
 
 .destination_item_2_text span:hover {
     color: var(--colorWhite);
-    background: var(--colorRed);
-    border-color: var(--colorRed);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
 }
 
 /* destination end */
@@ -2930,7 +2935,7 @@ button {
     padding: 2px 10px;
     text-transform: capitalize;
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     border-radius: 30px 0px 0px 30px;
     -webkit-border-radius: 30px 0px 0px 30px;
     -moz-border-radius: 30px 0px 0px 30px;
@@ -2964,7 +2969,7 @@ button {
     display: inline-block;
     text-transform: capitalize;
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
@@ -2999,7 +3004,7 @@ button {
 }
 
 .blog_2_text .title:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .blog_2_text ul {
@@ -3117,7 +3122,7 @@ button {
 
 .footer_apps ul li a:hover {
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
 }
 
 .footer_apps ul li .ios:hover span img {
@@ -3141,8 +3146,8 @@ button {
 }
 
 .footer_right_2 ul li a:hover {
-    background: var(--colorRed);
-    border-color: var(--colorRed);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
     color: var(--colorWhite);
 }
 
@@ -3458,7 +3463,7 @@ button {
     left: 0;
     padding: 4px 10px;
     color: var(--colorWhite);
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     border-radius: 0px 4px 4px 0px;
     -webkit-border-radius: 0px 4px 4px 0px;
     -moz-border-radius: 0px 4px 4px 0px;
@@ -3817,7 +3822,7 @@ button {
 }
 
 .destination_3_item:hover span {
-    background: var(--colorRed);
+    background: var(--colorPrimary);
 }
 
 .destination_3 .prevArrow,
@@ -3975,7 +3980,7 @@ button {
     font-weight: 600;
     padding: 3px 14px;
     border-radius: 6px;
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     color: var(--colorWhite);
     text-transform: uppercase;
     -webkit-border-radius: 6px;
@@ -5428,7 +5433,7 @@ button {
 }
 
 .single_input .forget_password:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .login_text .common_btn {
@@ -5933,7 +5938,7 @@ button {
 }
 
 .payment_btn_area button.btn-danger {
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     color: var(--colorWhite);
 }
 
@@ -6558,7 +6563,7 @@ button {
 }
 
 .dash_show_menu .sidebar_menu_icon {
-    background: var(--colorRed);
+    background: var(--colorPrimary);
     right: -40px;
 }
 
@@ -6913,7 +6918,7 @@ button {
 }
 
 .overview_listing table tr .action a:hover {
-    color: var(--colorRed);
+    color: var(--colorPrimary);
 }
 
 .dashboard_overview_review {
