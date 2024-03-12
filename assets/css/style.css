@@ -1218,9 +1218,6 @@ button {
 }
 
 .listing_bottom ul li {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     margin-top: 0;
     font-size: 15px;
     font-weight: 400;
@@ -2212,7 +2209,7 @@ button {
 
 .banner_2_overly {
     padding: 270px 0px 210px 0px;
-    background: #00000094;
+    background: #000000ab;
 }
 
 .banner_2_contant h3 {
@@ -2221,6 +2218,10 @@ button {
     text-transform: capitalize;
     color: var(--colorWhite);
     font-family: var(--cursiveFont);
+}
+
+.banner_2_contant h1 {
+    max-width: 80%;
 }
 
 .banner_2_contant h1,
@@ -2233,7 +2234,6 @@ button {
     text-transform: capitalize;
     color: var(--colorWhite);
     z-index: 999;
-
 }
 
 .banner_2_contant h1 span::after {
@@ -3427,17 +3427,20 @@ button {
 /* banner 3 start */
 .banner_3 .banner_overly {
     padding: 292px 0px 230px 0px;
-    background: #011f56c7;
+    background: linear-gradient(90deg, rgba(1, 31, 86, 1) 0%, rgba(1, 31, 86, 0.7679446778711485) 35%, rgba(1, 31, 86, 0.3981967787114846) 100%);
 }
 
 .banner_contant_3 h1 {
     text-transform: capitalize;
     font-size: 64px;
     line-height: 78px;
+    text-align: left;
+    max-width: 90%;
 }
 
 .banner_contant_3 p {
     font-weight: 400;
+    text-align: left;
 }
 
 .banner_contant_3 form {
@@ -3929,10 +3932,6 @@ button {
     z-index: 2;
 }
 
-.destination_3_item:hover::before {
-    /* opacity: 0; */
-}
-
 .destination_3_item:hover::after {
     opacity: 1;
 }
@@ -3945,7 +3944,7 @@ button {
 }
 
 .destination_3_item .text h6 {
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 400;
     font-family: var(--cursiveFont);
     color: var(--colorWhite);
@@ -4334,6 +4333,14 @@ button {
 .footer_3 .footer_right ul li a:hover {
     background: var(--colorBlue);
     border-color: var(--colorBlue);
+    color: var(--colorWhite);
+}
+
+.polular_listing_3 {}
+
+.polular_listing_3 .section_title_2 {}
+
+.polular_listing_3 .section_title_2 h4 {
     color: var(--colorWhite);
 }
 
@@ -4866,6 +4873,7 @@ button {
 .blog_details_img_2 {
     height: 370px;
     margin-top: 55px;
+    margin-bottom: 50px;
 }
 
 .blog_explaine {
@@ -5289,13 +5297,13 @@ button {
     CHECKOUT PAGE START
 =============================*/
 .checkout_area {
-    background: var(--lightBg);
+    /* background: var(--lightBg); */
 }
 
 .checkout_left {
     padding: 50px 40px;
-    background: var(--colorWhite);
-    box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
+    background: var(--lightBg);
+    /* box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10); */
 }
 
 .checkout_heading {
@@ -5328,8 +5336,8 @@ button {
 
 .checkout_right {
     padding: 48px 40px;
-    background: var(--colorWhite);
-    box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
+    background: var(--lightBg);
+    /* box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10); */
 }
 
 .reservation_details h4 {
@@ -5472,22 +5480,22 @@ button {
     FAQ PAGE START
 =============================*/
 .faq_area {
-    background: var(--lightBg);
+    /* background: var(--lightBg); */
 }
 
 .faq_accordion .accordion-item {
-    background: var(--colorWhite);
+    background: var(--lightBg);
     border: none;
-    box-shadow: 0px 6px 50px 1px rgba(3, 26, 38, 0.10);
+    /* box-shadow: 0px 6px 50px 1px rgba(3, 26, 38, 0.10); */
 }
 
 .faq_accordion button {
     font-size: 18px;
     font-weight: 600;
-    font-family: var(--headingFont);
+    /* font-family: var(--headingFont); */
     margin-top: 13px;
     padding: 22px 20px 22px 70px;
-    background: var(--colorWhite);
+    background: var(--lightBg);
     color: var(--colorBlack);
     opacity: 0.7;
     box-shadow: none !important;
@@ -6151,13 +6159,13 @@ button {
     LISTING DETAILS START
 =============================*/
 .property_details {
-    background: var(--lightBg);
+    /* background: var(--lightBg); */
 }
 
 .single_property_details {
     padding: 30px;
-    background: var(--colorWhite);
-    box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
+    background: var(--lightBg);
+    /* box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10); */
 }
 
 .single_property_details h4,
@@ -6508,7 +6516,7 @@ button {
 
 .opening_our {
     padding: 35px;
-    background: var(--colorWhite);
+    background: var(--lightBg);
 }
 
 .opening_our h3 {
@@ -6518,8 +6526,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: var(--lightBg);
-    padding: 7px 20px 10px 20px;
+    /* background: var(--lightBg); */
+    /* padding: 7px 20px 10px 20px; */
 }
 
 .opening_our ul {
@@ -6620,7 +6628,7 @@ button {
 }
 
 .sales_executive ul li a:hover {
-    color: var(--colorPrimary);
+    color: var(--colorYellow);
 }
 
 .property_details_bottom h4 {
@@ -7576,3 +7584,18 @@ button {
 /*=============================
     DASHBOARD END
 =============================*/
+
+
+
+/* 
+
+Jeep Grand Cherokee-2024
+BMW 3 Series Class-2024
+Hyundai Sonata-2024
+Mercedes-Benz C-Class-2023 
+Jeep Grand Cherokee-2022
+Thunderstorm Turbo Pro
+Aurora Starlight Elite
+Radiant Sunburst Deluxe
+
+*/
