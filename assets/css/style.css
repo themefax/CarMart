@@ -5555,11 +5555,12 @@ button {
     LOGIN PAGE START
 =============================*/
 .login_area {
-    background: var(--lightBg);
+    /* background: var(--lightBg); */
 }
 
 .main_login_area {
-    background: var(--colorWhite);
+    background: var(--lightBg);
+    overflow: hidden;
 }
 
 .login_text {
@@ -5760,13 +5761,13 @@ button {
     PRIVACY POLICY START
 =============================*/
 .privacy_policy {
-    background: var(--lightBg);
+    /* background: var(--lightBg); */
 }
 
 .privacy_policy_area {
     padding: 28px 50px 50px 50px;
-    background: var(--colorWhite);
-    box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
+    background: var(--lightBg);
+    /* box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10); */
 }
 
 .privacy_policy_area h4 {
@@ -5884,8 +5885,9 @@ button {
     LISTING LEFT SIDEBAR START
 =============================*/
 .property_sidebar {
-    border: 1px solid rgba(3, 26, 38, 0.10);
+    /* border: 1px solid rgba(3, 26, 38, 0.10); */
     overflow: hidden;
+    background: var(--lightBg);
 }
 
 .sidebar_wizerd {
